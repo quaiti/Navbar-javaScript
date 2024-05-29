@@ -1,5 +1,3 @@
-
-
 let body = document.body;
 let nav = document.createElement("nav");
 let logo = document.createElement("a");
@@ -24,21 +22,6 @@ btnDrop.innerHTML = `<i class="fa-solid fa-bars"></i>`;
 
 // attr
 logo.setAttribute("href", "#");
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 function elementsStyle() {
   document.querySelectorAll("*").forEach((elements) => {
@@ -71,19 +54,6 @@ function elementsStyle() {
   margin: 0;
   `;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
   document.querySelectorAll(".nav-link").forEach((element) => {
     element.style.cssText = `
     display: inline-block;
@@ -105,23 +75,6 @@ function elementsStyle() {
 }
 
 elementsStyle();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 function maxWidth550() {
   if (window.innerWidth < 550) {
@@ -155,10 +108,6 @@ function maxWidth550() {
       `;
     });
 
-
-
-
-    
     btnDrop.onclick = () => {
       if (ul.style.height == "0px") {
         ul.style.height = "140px";
